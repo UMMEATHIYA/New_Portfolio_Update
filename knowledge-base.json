@@ -1,0 +1,34 @@
+[
+  {
+  "question": "hello",
+  "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
+  },
+  {
+  "question": "hi",
+  "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
+  },
+  {
+    "question": "tell me about umme",
+    "answer": "Umme Athiya is an AI/ML engineer based in Chicago with over five years of experience. She specialises in large language models, generative AI and building scalable ML systems."
+  },
+  {
+    "question": "what is llm",
+    "answer": "LLM stands for Large Language Model – a type of neural network trained on vast amounts of text to understand and generate human‑like language."
+  },
+  {
+    "question": "what projects have you worked on",
+    "answer": "Some of my highlighted projects include SmartSign (ASL to text translation), RAGflix (movie scene retrieval using language models), ResumeRadar (resume assistant with OCR), DeepArt (neural style transfer) and SentimentScope (real‑time sentiment dashboard)."
+  },
+  {
+    "question": "how can i contact you",
+    "answer": "You can get in touch via email (uathiya4@gmail.com), my personal website (ummeathiya.com), LinkedIn or GitHub – links are provided in the contact section."
+  },
+  {
+    "question": "where did you study",
+    "answer": "I earned my M.S. in Computer Science (AI) from DePaul University in Chicago and my B.E. in Information Science from Don Bosco Institute of Technology."
+  },
+  {
+    "question": "what are your skills",
+    "answer": "I work with Python, Java, C++, SQL, generative AI libraries, PyTorch, TensorFlow, MLflow, Docker, Kubernetes and many other tools. You can explore the Skills section for more details."
+  }
+]
