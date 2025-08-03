@@ -67,11 +67,11 @@ const experiences = [
       "Evaluated quantised models using TensorRT for edge inferencing and led sessions on RAG, model packaging and cost‑effective fine‑tuning."
     ],
     photos: [
-    "images/ibm1.png",
-    "images/ibm2.png",
-    "images/ibm3.png",
-    "images/ibm4.jpeg",
-    "images/ibm5.jpeg"
+    "images/IBM1.png",
+    "images/IBM2.png",
+    "images/IBM3.png",
+    "images/IBM4.jpeg",
+    "images/IBM5.jpeg"
   ]
   },
   {
