@@ -73,6 +73,7 @@ const experiences = [
     "images/IBM4.jpeg",
     "images/IBM5.jpeg"
   ]
+  
   },
   {
     title: "Machine Learning Intern",
