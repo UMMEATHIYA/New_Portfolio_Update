@@ -41,6 +41,7 @@ function initTypewriter() {
     "👋 Hey! I'm Umme",
     "💻 Welcome to my portfolio!",
     "✨ Let’s build AI that empowers humans! ✨",
+    "✨I build GenAI systems that don’t just predict, but decide, adapt, and scale in production"
   ];
   const typedEl = document.querySelector('.typed');
   let lineIndex = 0;
