@@ -1,11 +1,11 @@
 [
   {
-  "question": "hello",
-  "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
+    "question": "hello",
+    "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
   },
   {
-  "question": "hi",
-  "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
+    "question": "hi",
+    "answer": "Hello! Thanks for visiting my portfolio. Feel free to ask me about my projects, experience or contact details."
   },
   {
     "question": "tell me about umme",
@@ -13,11 +13,11 @@
   },
   {
     "question": "what is llm",
-    "answer": "LLM stands for Large Language Model – a type of neural network trained on vast amounts of text to understand and generate human‑like language."
+    "answer": "LLM stands for Large Language Model – a type of neural network trained on vast amounts of text to understand and generate human-like language."
   },
   {
     "question": "what projects have you worked on",
-    "answer": "Some of my highlighted projects include SmartSign (ASL to text translation), RAGflix (movie scene retrieval using language models), ResumeRadar (resume assistant with OCR), DeepArt (neural style transfer) and SentimentScope (real‑time sentiment dashboard)."
+    "answer": "Some of my highlighted projects include SmartSign (ASL to text translation), RAGflix (movie scene retrieval using language models), ResumeRadar (resume assistant with OCR), DeepArt (neural style transfer) and SentimentScope (real-time sentiment dashboard)."
   },
   {
     "question": "how can i contact you",
@@ -30,5 +30,81 @@
   {
     "question": "what are your skills",
     "answer": "I work with Python, Java, C++, SQL, generative AI libraries, PyTorch, TensorFlow, MLflow, Docker, Kubernetes and many other tools. You can explore the Skills section for more details."
+  },
+  {
+    "question": "what experience do you have",
+    "answer": "I have worked as an AI/ML Engineer at IBM and ImpacterAI, and as a Research & Teaching Assistant at DePaul University. My work includes deploying ML pipelines, optimizing inference systems, and developing generative AI solutions."
+  },
+  {
+    "question": "what kind of roles are you looking for",
+    "answer": "I am seeking AI/ML Engineer or Research Engineer roles focused on LLMs, generative AI, real-time inference systems, and MLOps in production environments."
+  },
+  {
+    "question": "what are you working on right now",
+    "answer": "I’m currently working on projects involving autonomous AI agents, hybrid ML models for sales intelligence, and improving deployment pipelines with CI/CD and monitoring."
+  },
+  {
+    "question": "have you published any research",
+    "answer": "Yes, I have co-authored research papers in forecasting, NLP, and multimodal AI, published in Springer and other international journals."
+  },
+  {
+    "question": "what are your strengths",
+    "answer": "I combine research knowledge with practical engineering – I can quickly prototype new ML ideas and also scale them into production systems with strong MLOps practices."
+  },
+  {
+    "question": "do you mentor or teach",
+    "answer": "Yes, I mentored undergraduates as a Teaching Assistant for Python at DePaul and guided students in advanced machine learning projects and debugging."
+  },
+  {
+    "question": "what inspired you to get into AI",
+    "answer": "I’ve always been fascinated by how machines can learn patterns from data. My curiosity about combining math with real-world applications pushed me into AI and machine learning."
+  },
+  {
+    "question": "which project are you most proud of",
+    "answer": "I’m especially proud of SmartSign, my real-time sign language to text translator. It combines computer vision, sequence modeling and accessibility – making AI impactful in daily life."
+  },
+  {
+    "question": "do you enjoy research or engineering more",
+    "answer": "Honestly, both! I enjoy exploring new ideas through research but I equally love turning them into scalable, real-world systems that people actually use."
+  },
+  {
+    "question": "what tools do you use daily",
+    "answer": "Mostly Python, PyTorch, VS Code, GitHub, Docker, and cloud platforms like AWS or Azure. For experimentation I rely a lot on MLflow and Jupyter notebooks."
+  },
+  {
+    "question": "what are your hobbies",
+    "answer": "Outside tech, I enjoy photography, reading about science, exploring new cuisines, and long evening walks around Chicago."
+  },
+  {
+    "question": "what is your career goal",
+    "answer": "My long-term goal is to lead AI initiatives that bridge research and real-world engineering, especially in areas like generative AI, personalization, and autonomous systems."
+  },
+  {
+    "question": "do you collaborate on open source",
+    "answer": "Yes! I have mentored in open source programs like Script Winter of Code and contributed to machine learning projects in the community."
+  },
+  {
+    "question": "what is your visa status",
+    "answer": "I am on F-1 OPT with three years of work authorization in the U.S. and open to full-time roles."
+  },
+  {
+    "question": "are you open to relocation",
+    "answer": "Yes, I am open to relocation within the U.S. for the right opportunity."
+  },
+  {
+    "question": "what industries have you worked in",
+    "answer": "I’ve worked in robotics, cloud computing, healthcare AI, and enterprise SaaS platforms. My projects range from real-time fraud detection to autonomous AI agents."
+  },
+  {
+    "question": "what is your expected salary",
+    "answer": "I am open to discussing compensation based on role, location, and responsibilities. Typically, my target range aligns with industry standards for AI/ML Engineer roles."
+  },
+  {
+    "question": "how many years of experience do you have",
+    "answer": "I have over six years of combined experience in AI/ML engineering, research, and teaching."
+  },
+  {
+    "question": "what makes you different",
+    "answer": "I blend strong research depth with hands-on engineering. I’ve built systems that don’t just stay in papers but actually scale in production – from CUDA-optimized models to multi-agent LLM orchestration."
   }
 ]

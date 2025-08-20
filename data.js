@@ -17,7 +17,7 @@ const profile = {
   name: "Umme Athiya",
   tagline: "AI/ML Engineer | Agentic AI | LLMs | Generative AI | NLP | Scalable ML Systems",
   summary: [
-    "I am an AI/ML Engineer with more than five years of hands‑on experience building end‑to‑end AI systems. My passion lies in translating cutting‑edge research into scalable products that empower people and organisations.",
+    "I am an AI/ML Engineer with more than 6 years of hands‑on experience building end‑to‑end AI systems. My passion lies in translating cutting‑edge research into scalable products that empower people and organisations.",
     "My expertise spans from data ingestion and model fine‑tuning to deploying large language models at scale. I specialise in designing ML pipelines, integrating generative AI into real‑world applications and optimising performance across cloud and edge environments."
   ],
   location: "Chicago, USA",
@@ -30,6 +30,22 @@ const profile = {
 // series of key contributions.  These will be rendered as a
 // stylised timeline in the Experience section.
 const experiences = [
+  {
+    "title": "AI Developer - Team Lead",
+    "organisation": "ImpacterAI",
+    "location": "San Francisco, USA",
+    "timeframe": "July 2025 – Present",
+    "bullets": [
+      "Led development of InfinityMindAI and PersuadioAI, architecting multi-agent orchestration for autonomous sales engines.",
+      "Built hybrid neural network models for objection classification using text embeddings + structured features, improving prediction accuracy.",
+      "Deployed FastAPI-based inference APIs to Azure with Docker and GitHub Actions CI/CD, enabling scalable, zero-downtime updates.",
+      "Integrated MLflow pipelines for experiment tracking, model versioning, and production monitoring across multiple agents.",
+      "Implemented deal-closing personalization models on synthetic objection datasets, enhancing objection handling success rates.",
+      "Collaborated with cross-functional teams on autonomous, recursive self-improving AGI system (OpenInfinityAI) with CodeGen Orchestrator.",
+      "Optimized inference with Triton and TorchServe, balancing latency vs. throughput for real-time customer interactions.",
+      "Contributed to infrastructure setup (Terraform, Azure Functions, Blob/Queue storage) ensuring secure, cloud-native deployments."
+    ],
+  },
   {
     title: "AI/ML Research & Teaching Assistant",
     organisation: "DePaul University",
