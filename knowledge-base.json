@@ -9,7 +9,7 @@
   },
   {
     "question": "tell me about umme",
-    "answer": "Umme Athiya is an AI/ML engineer based in Chicago with over five years of experience. She specialises in large language models, generative AI and building scalable ML systems."
+    "answer": "Umme Athiya is an AI/ML engineer based in Chicago with over seven years of experience. She's currently a Conversational AI Full Stack Engineer at Aetna (a CVS Health company) and specialises in conversational and voice AI, LLMs, agentic AI and scalable ML systems."
   },
   {
     "question": "what is llm",
@@ -25,15 +25,15 @@
   },
   {
     "question": "where did you study",
-    "answer": "I earned my M.S. in Computer Science (AI) from DePaul University in Chicago and my B.E. in Information Science from Don Bosco Institute of Technology."
+    "answer": "I earned my M.S. in AI and Machine Learning from DePaul University in Chicago (GPA 3.85) and my B.E. in Information Science & Engineering from Don Bosco Institute of Technology in Bangalore (GPA 4.0)."
   },
   {
     "question": "what are your skills",
-    "answer": "I work with Python, Java, C++, SQL, generative AI libraries, PyTorch, TensorFlow, MLflow, Docker, Kubernetes and many other tools. You can explore the Skills section for more details."
+    "answer": "I work with Python, JavaScript and SQL; LLMs (GPT, Claude, LLaMA), RAG, agentic AI and fine-tuning; PyTorch, TensorFlow and Hugging Face; conversational AI with IBM WatsonX and Watson Assistant; and cloud on AWS, Azure, Google Cloud (GCP) and IBM Cloud with Docker, Kubernetes and CI/CD. The Skills section has the full list."
   },
   {
     "question": "what experience do you have",
-    "answer": "I have worked as an AI/ML Engineer at IBM and ImpacterAI, and as a Research & Teaching Assistant at DePaul University. My work includes deploying ML pipelines, optimizing inference systems, and developing generative AI solutions."
+    "answer": "I'm currently a Conversational AI Full Stack Engineer at Aetna, building voice assistants for healthcare. Before that I was Lead AI Developer at ImpacterAI, a Graduate Research Assistant and TA at DePaul University, and an AI/ML Engineer at IBM working on conversational AI, computer vision and robotics."
   },
   {
     "question": "what kind of roles are you looking for",
@@ -41,7 +41,7 @@
   },
   {
     "question": "what are you working on right now",
-    "answer": "I’m currently working on projects involving autonomous AI agents, hybrid ML models for sales intelligence, and improving deployment pipelines with CI/CD and monitoring."
+    "answer": "At Aetna I'm designing voice-based virtual assistants for healthcare provider and member services — conversational flows, intent models, backend API integrations and speech-to-text optimisation."
   },
   {
     "question": "have you published any research",
@@ -101,10 +101,18 @@
   },
   {
     "question": "how many years of experience do you have",
-    "answer": "I have over six years of combined experience in AI/ML engineering, research, and teaching."
+    "answer": "I have over seven years of combined experience in AI/ML engineering, research, and teaching."
   },
   {
     "question": "what makes you different",
     "answer": "I blend strong research depth with hands-on engineering. I’ve built systems that don’t just stay in papers but actually scale in production – from CUDA-optimized models to multi-agent LLM orchestration."
+  },
+  {
+    "question": "where do you work",
+    "answer": "I'm a Conversational AI Full Stack Engineer at Aetna, a CVS Health company — I joined in January 2026."
+  },
+  {
+    "question": "what do you do at aetna",
+    "answer": "I own end-to-end design of voice-based virtual assistants for healthcare provider and member services, build backend integrations in Python and JavaScript, and lead intent tuning and speech-to-text optimisation."
   }
 ]
