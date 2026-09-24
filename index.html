@@ -99,8 +99,8 @@ main,footer,.marquee{position:relative;z-index:1}
 .eyebrow{font-family:var(--mono);font-size:13px;color:var(--teal);letter-spacing:.02em;display:inline-flex;align-items:center;gap:10px;padding:6px 12px;border:1px solid rgba(255,158,122,.25);border-radius:999px;background:rgba(255,158,122,.05)}
 .eyebrow .blink{width:7px;height:14px;background:var(--teal);animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
-.name{font-family:var(--display);font-weight:800;font-size:clamp(54px,10.5vw,150px);line-height:.9;letter-spacing:-.045em;margin:22px 0 18px;text-wrap:balance}
-.name .line{display:block;overflow:hidden;padding-bottom:.06em}
+.name{font-family:var(--display);font-weight:800;font-size:clamp(46px,7.4vw,118px);line-height:.95;letter-spacing:-.04em;margin:22px 0 18px;max-width:100%}
+.name .line{display:block;overflow:hidden;padding-bottom:.06em;white-space:nowrap}
 .name .ch{display:inline-block;will-change:transform}
 .name .line:last-child{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;padding-left:.02em}
 .name .gradch{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.04em}
@@ -1146,6 +1146,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     if (line === line.parentNode.lastElementChild) { var g = document.createElement("span"); g.className = "ch gradch"; g.textContent = t; line.appendChild(g); return }
     t.split("").forEach(function(ch){ var s = document.createElement("span"); s.className = "ch"; s.textContent = ch; line.appendChild(s) });
   });
+  /* keep the name on two lines at any width, whatever the font's real width */
+  var nameEl = $(".name");
+  function fitName(){
+    if (!nameEl) return;
+    nameEl.style.fontSize = "";
+    var avail = nameEl.clientWidth, widest = 0;
+    $$(".line", nameEl).forEach(function(l){ var w = 0; Array.prototype.forEach.call(l.children, function(c){ w += c.getBoundingClientRect().width }); widest = Math.max(widest, w) });
+    if (widest > avail && widest > 0) nameEl.style.fontSize = (parseFloat(getComputedStyle(nameEl).fontSize) * avail / widest * .97) + "px";
+  }
+  fitName();
+  window.addEventListener("resize", function(){ clearTimeout(fitName.t); fitName.t = setTimeout(fitName, 120) });
+  if (document.fonts) document.fonts.ready.then(fitName);
   if (hasG && !reduce) {
     var tl = gsap.timeline({ defaults: { ease: "expo.out" } });
     tl.from(".name .ch", { yPercent: 115, rotate: 6, duration: 1.2, stagger: .045 })
